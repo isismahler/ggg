@@ -17,7 +17,22 @@ Lesson01 - 04 Configuring aliases
   git config --global alias.lg "log --oneline --all --graph --decorate"
 
 Lesson02 - 01 Creating your first Git repository
+  git status
   git init web1
 
 Lesson02 - 02 Commiting in git
+  git add .
+  git status
+  touch anotherFile.css
+  git status
+  git add anotherFile.css
+  git commit -m "Added home page"
+
+Lesson02 - 03 Understanding a Git commit
+  Benefits of commit identification as a hash (intro)
+
+Lesson02 - 04 The benefits of Git's use of SHA1 hashes
+  Reason for staging area is for atomic meaningful commits.
+
+
   
