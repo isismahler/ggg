@@ -1,0 +1,23 @@
+Introduction
+  - overview
+
+Lesson01 - 01 Three levels of configuration
+  - local, global, system
+  - global
+      all of the repo you use in your laptop
+
+Lesson01 - 02 Basic configuration options and renaming a repo
+
+Lesson01 - 03 Configuring line endingsss
+  git config --global core.autocrlf input
+
+Lesson01 - 04 Configuring aliases
+  - create your own commands
+  git config --global alias.s "status -s"
+  git config --global alias.lg "log --oneline --all --graph --decorate"
+
+Lesson02 - 01 Creating your first Git repository
+  git init web1
+
+Lesson02 - 02 Commiting in git
+  
